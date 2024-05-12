@@ -7,14 +7,15 @@ pontos = 1000
 
 nivel = int(input("Escolha o nível do jogo, de 1 a 3: "))
 
+while (nivel != 3) and (nivel != 2) and (nivel != 1):
+    nivel = int(input("Escolha o nível do jogo, de 1 a 3: "))
+
 if nivel == 1:
     total_de_tentativas = 20
 elif nivel == 2:
     total_de_tentativas = 10
-elif nivel == 3:
-    total_de_tentativas = 5
 else:
-    print("Nível inválido!")
+    total_de_tentativas = 5
 
 
 for rodada in range(1, total_de_tentativas + 1):
