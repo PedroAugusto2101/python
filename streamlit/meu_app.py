@@ -1,4 +1,4 @@
-## ctrl+c interrompe o streamlit
+## ctrl+c interromper o streamlit
 import streamlit as st
 import pandas as pd
 
