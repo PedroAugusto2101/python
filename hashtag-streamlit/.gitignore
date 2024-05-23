@@ -1,1 +1,4 @@
-env-streamlit/
+.venv/
+node_modules/
+build
+dist
