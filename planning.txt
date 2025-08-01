@@ -1,0 +1,73 @@
+python-for-data-engineering/
+│
+├── README.md
+├── requirements.txt
+│
+├── 01_syntax/
+│   ├── variables.py
+│   ├── conditionals.py
+│   ├── loops.py
+│   ├── functions.py
+│   ├── classes_objects.py
+│   └── README.md
+│
+├── 02_data_structures/
+│   ├── lists.py
+│   ├── tuples.py
+│   ├── dictionaries.py
+│   ├── sets.py
+│   └── README.md
+│
+├── 03_standard_libraries/
+│   ├── os_module.py
+│   ├── sys_module.py
+│   ├── datetime_module.py
+│   ├── collections_module.py
+│   └── README.md
+│
+├── 04_data_libraries/
+│   ├── pandas_intro.ipynb
+│   ├── numpy_intro.ipynb
+│   ├── matplotlib_intro.ipynb
+│   ├── seaborn_intro.ipynb
+│   ├── polars_intro.ipynb
+│   └── README.md
+│
+├── 05_file_handling/
+│   ├── read_write_csv.py
+│   ├── read_write_json.py
+│   ├── file_paths_os_pathlib.py
+│   └── README.md
+│
+├── 06_oop_and_design/
+│   ├── oop_basics.py
+│   ├── dunder_methods.py
+│   ├── decorators.py
+│   ├── context_managers.py
+│   └── README.md
+│
+├── 07_clean_code_and_testing/
+│   ├── code_style_pep8.md
+│   ├── type_hints_and_annotations.py
+│   ├── unit_testing_pytest.py
+│   ├── linting_flake8_black.md
+│   └── README.md
+│
+├── 08_python_for_data_engineering/
+│   ├── working_with_big_files.py
+│   ├── generators_and_iterators.py
+│   ├── multithreading_vs_multiprocessing.py
+│   ├── logging_and_config.py
+│   └── README.md
+│
+└── 09_project_templates/
+    ├── simple_data_pipeline/
+    │   ├── __main__.py
+    │   ├── etl.py
+    │   ├── config.yaml
+    │   └── README.md
+    └── modular_code_example/
+        ├── src/
+        ├── tests/
+        ├── requirements.txt
+        └── README.md
